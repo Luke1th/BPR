@@ -1,9 +1,10 @@
 This repository contains the supplementary materials for the "Analysis Of False Data Injection Attacks On
 IEC 61850 In Digital Substation" thesis.
 
-Smart Grid Simulator (SGSim)
+Smart Grid Simulator (SGSim) - the main simulator used for this Thesis.
 
 SGSim is a tool for simulation of communication and cyber attacks in digital primary and secondary substations.
+
 Pre-requizites
 
     mininet
