@@ -1,8 +1,8 @@
-# This repository contains the supplementary materials for the "Analysis Of False Data Injection Attacks On
-IEC 61850 In Digital Substation" thesis.
+# Analysis Of False Data Injection Attacks On IEC 61850 In Digital Substation
 
-## Smart Grid Simulator (SGSim) - the main simulator used for this Thesis.
-## SGSim is a tool for simulation of communication and cyber attacks in digital primary and secondary substations.
+## This repository contains the supplementary materials for the thesis ”Analysis Of False Data Injection Attacks On IEC 61850 In Digital Substation".
+
+The supplement is intended to support reproducibility and transparent auditing of the paper’s methodology and results, with a particular focus on the proposed false-alarms-per-hour (FAH) calibration and benchmarking procedure.
 
 Pre-requizites
 
