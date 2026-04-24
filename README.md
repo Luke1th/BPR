@@ -1,8 +1,10 @@
 # Analysis Of False Data Injection Attacks On IEC 61850 In Digital Substation
 
-## This repository contains the supplementary materials for the thesis ”Analysis Of False Data Injection Attacks On IEC 61850 In Digital Substation".
+## This repository contains the supplementary materials for the thesis.
 
-The supplement is intended to support reproducibility and transparent auditing of the paper’s methodology and results, with a particular focus on the proposed false-alarms-per-hour (FAH) calibration and benchmarking procedure.
+The supplement is intended to support reproducibility and transparent auditing of the paper’s methodology, implementation and results, with a particular focus on analyzing the nature of False Data Injection (FDI) attacks within Digital Primary Substation (DPS), and vulnerabilities of IEC 61850 standard, and GOOSE communication protocol.
+
+Contents
 
 Pre-requizites
 
