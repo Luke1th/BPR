@@ -24,7 +24,7 @@ The experimental data is located in the `/trials` directory. The data is divided
 -   **`C0_Baseline`**: Contains captures of normal network traffic, serving as a baseline for comparison.
 -   **`C1_FDI`**: Contains captures of traffic during a False Data Injection (FDI) attack.
 -   **`C2_Delay`**: Contains captures of traffic during a packet delay attack.
-NB - C2_Delay attack the fdi_goose.c program was modified to prompts the user to enter a numerical value. This file is added in the ATTACKER `folder`. 
+-   **`C2_Delay`**:the fdi_goose.c program was modified to prompts the user to enter a numerical value. This file is added in the ATTACKER `folder`. 
 
 
 Each scenario directory also contains:
