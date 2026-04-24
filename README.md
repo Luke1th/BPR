@@ -85,6 +85,3 @@ Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder (Note: these fi
 -   sgsim_startperfmon starts the IEC104 communication between the same devices, and timestamps to measure and list the delay, IPDV jitter, packet loss and threshold above 60 s measurement.
 -   sgsim_attack_dos starts the DoS attack from the DSS1 RTU to the CONTROL device (assumes compromised RTU).
 
-## License
-
-This project is licensed under the terms of the LICENSE file.
