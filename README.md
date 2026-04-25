@@ -6,7 +6,7 @@ The materials provided are intended to support the reproducibility and transpare
 
 ## Repository Structure
 
-This repository is organized as follows:
+Repository Structure:
 
 - **`/ATTACKER`**: Contains files related to the C2_Delay attack. Important to recompile the fdi_goose.c when editing.
 - **`/Analysis_Results`**: Contains Python scripts for analyzing the collected data.
