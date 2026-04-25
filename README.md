@@ -67,8 +67,7 @@ The experiments were conducted in a simulated environment using SGSim.
 
 ### Installation
 
-Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder
-Note: these files can be found here: https://github.com/filipholik/SmartGridSim/blob/main/comlib_dps.zip
+Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder. (Note: these files can be found here: https://github.com/filipholik/SmartGridSim/blob/main/comlib_dps.zip).
 
 -   sudo apt-get install mininet
 -   sudo apt-get install sqlite3
