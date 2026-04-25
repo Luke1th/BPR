@@ -1,8 +1,8 @@
 # Analysis Of False Data Injection Attacks On IEC 61850 In Digital Substation
 
-This repository contains the supplementary materials for a thesis on the analysis of False Data Injection (FDI) attacks within a Digital Primary Substation (DPS). It focuses on the vulnerabilities of the IEC 61850 standard and the GOOSE communication protocol.
-
-The materials herein are intended to support the reproducibility and transparent auditing of the methodology, implementation, and results.
+This repository contains the supplementary materials for a thesis on the analysis of False Data Injection (FDI) attacks within a Digital Primary Substation (DPS). 
+It focuses on the vulnerabilities of the IEC 61850 standard and the GOOSE communication protocol.
+The materials provided are intended to support the reproducibility and transparent auditing of the methodology, implementation, and results.
 
 ## Repository Structure
 
@@ -89,4 +89,5 @@ Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder (Note: these fi
 -   sgsim_startcom_sv starts the SV communication between IED2, IED3 and the DPS HMI.
 -   sgsim_startperfmon starts the IEC104 communication between the same devices, and timestamps to measure and list the delay, IPDV jitter, packet loss and threshold above 60 s measurement.
 -   sgsim_attack_dos starts the DoS attack from the DSS1 RTU to the CONTROL device (assumes compromised RTU).
+
 
