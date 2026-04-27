@@ -36,6 +36,8 @@ Each scenario directory also contains:
 - `pcap_to_csv.sh`: A shell script to convert the `.pcapng` files into a single `.csv` file for analysis.
 - `*.csv`: The resulting CSV file from the conversion script.
 
+<img src="https://github.com/Luke1th/BPR/blob/main/Images/Circuit_breakers.png"witth="400">
+
 ## Analysis
 
 The analysis of the dataset is performed using the Python scripts in the `/Analysis_Results` directory.
