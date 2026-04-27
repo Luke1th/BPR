@@ -36,7 +36,7 @@ Each scenario directory also contains:
 - `pcap_to_csv.sh`: A shell script to convert the `.pcapng` files into a single `.csv` file for analysis.
 - `*.csv`: The resulting CSV file from the conversion script.
 
-<img src="https://github.com/Luke1th/BPR/blob/main/Images/Circuit_breakers.png"witth="400">
+<img width="457" height="288" alt="Circuit_breakers" src="https://github.com/user-attachments/assets/40347200-fb09-476f-a882-49538fcd016b" />
 
 ## Analysis
 
