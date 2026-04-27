@@ -3,6 +3,9 @@
 This repository contains the supplementary materials for a thesis on the analysis of False Data Injection (FDI) attacks within a Digital Primary Substation (DPS). 
 It focuses on the vulnerabilities of the IEC 61850 standard and the GOOSE communication protocol.
 The materials provided are intended to support the reproducibility and transparent auditing of the methodology, implementation, and results.
+<p align="center">
+<img width="941" height="660" alt="C2_Delay_DPSRS-eth5" src="https://github.com/user-attachments/assets/a1307af1-c910-4f0b-a2a7-32afc6626496" />
+</p>
 
 ## Repository Structure
 
@@ -35,8 +38,6 @@ Each scenario directory also contains:
 - `*.meta.json`: A JSON file cataloging the `.pcapng` files for that scenario, including hashes and start times.
 - `pcap_to_csv.sh`: A shell script to convert the `.pcapng` files into a single `.csv` file for analysis.
 - `*.csv`: The resulting CSV file from the conversion script.
-
-<img src="https://github.com/Luke1th/BPR/blob/main/Images/Circuit_breakers.png"witth="400">
 
 ## Analysis
 
