@@ -4,7 +4,7 @@ This repository contains the supplementary materials for a thesis on the analysi
 It focuses on the vulnerabilities of the IEC 61850 standard and the GOOSE communication protocol.
 The materials provided are intended to support the reproducibility and transparent auditing of the methodology, implementation, and results.
 <p align="center">
-<img width="941" height="660" alt="C2_Delay_DPSRS-eth5" src="https://github.com/user-attachments/assets/a1307af1-c910-4f0b-a2a7-32afc6626496" />
+<img width="745" height="344" alt="C2_Delay" src="https://github.com/user-attachments/assets/da27b75d-de48-4297-9f63-e4badeff12d3" />
 </p>
 
 ## Repository Structure
