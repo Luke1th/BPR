@@ -46,7 +46,6 @@ features = [col for col in numerical_cols if col not in exclude_cols]
 
 #'goose.float_value', 'frame.time_epoch', and 'time_delta' are included.
 # 'frame.time_epoch' and 'time_delta' are already numerical.
-
 # Make sure goose.float_value is in features too.
 if 'goose.float_value' not in features:
     features.append('goose.float_value')
