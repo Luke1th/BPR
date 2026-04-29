@@ -74,10 +74,10 @@ The experiments were conducted in a simulated environment using SGSim.
 
 Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder. (Note: these files can be found here: https://github.com/filipholik/SmartGridSim/blob/main/comlib_dps.zip).
 
--   sudo apt-get install mininet
--   sudo apt-get install sqlite3
--   sudo apt-get install php-sqlite3
--   sudo apt-get install tshark
+-   `sudo apt-get install mininet`
+-   `sudo apt-get install sqlite3`
+-   `sudo apt-get install php-sqlite3`
+-   `sudo apt-get install tshark`
 
 ### Running the Simulation
 
@@ -87,12 +87,10 @@ Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder. (Note: these f
 -   **SCADA simulation**: open web browser at `localhost:8000`
 
 ### Running the PCA Analysis
--   `python -m venv .venv`:  in your terminal, replacing "myenv" with your desired environment name
--   `source myenv/bin/activate`: to activate the environment
--   `import pandas as pd`
--   `import numpy as np`
--   `import matplotlib.pyplot as plt`
--   `import seaborn as sns`
+-   `sudo apt-install -y python3-venv`
+-   `python -m venv venv`:  in your terminal, replacing "myenv" with your desired environment name
+-   `source venv/bin/activate`: to activate the environment
+-   `pip install -U numpy pandas matplotlib seaborn`
 -   `python3 pca_analysis.py` : run the script to load the datasets, explicitly defining frame.time as string to avoid parsing issues
 
 

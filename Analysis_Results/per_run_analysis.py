@@ -15,17 +15,17 @@ def plot_goose_value_distribution(baseline_df, fdi_df, delay_df):
     plt.subplot(1, 3, 1)
     sns.histplot(baseline_df['goose.float_value'].dropna(), bins=50, kde=True)
     plt.title('Baseline GOOSE Value Distribution')
-    plt.xlabel('(Relative Time(seconds)')
+    plt.xlabel('float_value')
 
     plt.subplot(1, 3, 2)
     sns.histplot(fdi_df['goose.float_value'].dropna(), bins=50, kde=True)
     plt.title('FDI GOOSE Value Distribution')
-    plt.xlabel('Relative Time(seconds)')
+    plt.xlabel('float_value')
 
     plt.subplot(1, 3, 3)
     sns.histplot(delay_df['goose.float_value'].dropna(), bins=50, kde=True)
     plt.title('Delay GOOSE Value Distribution')
-    plt.xlabel('(Relative Time(seconds)')
+    plt.xlabel('float_value')
 
     plt.tight_layout()
     plt.savefig('goose_value_distribution.png')
