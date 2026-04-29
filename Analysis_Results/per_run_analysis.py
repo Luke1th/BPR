@@ -98,9 +98,9 @@ def plot_delay_analysis(delay_df):
 
 
 def analyze_data():
-    baseline_df = load_and_prepare_data('SGSim/C0_Baseline/Baseline01/trial01.csv')
-    fdi_df = load_and_prepare_data('SGSim/C1_FDI/C1_FDI_trial01/trial01.csv')
-    delay_df = load_and_prepare_data('SGSim/C2_Delay/C2_Delay_30s_trial01/trial01.csv')
+    baseline_df = load_and_prepare_data('/home/luk3/Desktop/SGSim/C0_Baseline/Baseline01/trial01.csv')
+    fdi_df = load_and_prepare_data('/home/luk3/Desktop/SGSim/C1_FDI/C1_FDI_trial01/trial01.csv')
+    delay_df = load_and_prepare_data('/home/luk3/Desktop/SGSim/C2_Delay/C2_Delay_30s_trial01/trial01.csv')
 
     # Calculate time_diff for both baseline_df and delay_df
     baseline_df['time_diff'] = baseline_df['frame.time'].diff().dt.total_seconds()
