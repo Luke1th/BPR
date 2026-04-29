@@ -89,12 +89,13 @@ Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder. (Note: these f
 -   **SCADA simulation**: open web browser at `localhost:8000`
 
 ### Running the PCA Analysis
--   `python -m venv .venv`:  in your terminal, replacing "myenv" with your desired environment name.
--   `source myenv/bin/activate`: to activate it
+-   `python -m venv .venv`:  in your terminal, replacing "myenv" with your desired environment name
+-   `source myenv/bin/activate`: to activate the environment
 -   `import pandas as pd`
 -   `import numpy as np`
 -   `import matplotlib.pyplot as plt`
 -   `import seaborn as sns`
+-   `python3 pca_analysis.py` : run the script to load the datasets, explicitly defining frame.time as string to avoid parsing issues
 
 
 ### Mininet is able to control the topology using custom functions
