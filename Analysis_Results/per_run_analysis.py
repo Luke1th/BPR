@@ -118,7 +118,6 @@ def analyze_data():
     plot_packet_frequency(baseline_df, fdi_df, delay_df)
     plot_delay_analysis(delay_df)
 
-    # More analysis to come
 
 if __name__ == "__main__":
     analyze_data()

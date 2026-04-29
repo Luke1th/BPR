@@ -44,10 +44,9 @@ numerical_cols = df_combined.select_dtypes(include=['number']).columns.tolist()
 exclude_cols = ['frame.number']
 features = [col for col in numerical_cols if col not in exclude_cols]
 
-# We need to make sure 'goose.float_value', 'frame.time_epoch', and 'time_delta' are included.
+#'goose.float_value', 'frame.time_epoch', and 'time_delta' are included.
 # 'frame.time_epoch' and 'time_delta' are already numerical.
-# If they are not in the numerical_cols for some reason (e.g., all NaNs), then we need to handle that.
-# For now, let's assume they are correctly identified as numerical.
+
 # Make sure goose.float_value is in features too.
 if 'goose.float_value' not in features:
     features.append('goose.float_value')
@@ -87,7 +86,7 @@ if X_pca.shape[1] >= 2:
     plt.ylabel(f'Principal Component 2 ({explained_variance_ratio[1]*100:.2f}%)')
     plt.title('PCA of Baseline vs. FDI Data', fontsize=16)
     plt.legend(fontsize=12)
-    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.grid(True, linestyle='--', alpha=0.6) # Added grid back
     plt.tight_layout()
     plt.savefig('pca_2d_plot.png')
     print("2D PCA plot saved as 'pca_2d_plot.png'")

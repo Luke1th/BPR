@@ -32,7 +32,7 @@ def plot_goose_value_distribution(baseline_df, fdi_df, delay_df):
     plt.close()
 
 def plot_packet_frequency(baseline_df, fdi_df, delay_df):
-    plt.figure(figsize=(15, 5)) # Use previous figsize for 3 subplots
+    plt.figure(figsize=(16, 5)) # Use previous figsize for 3 subplots
 
     datasets = {
         'Baseline': baseline_df,
@@ -44,14 +44,14 @@ def plot_packet_frequency(baseline_df, fdi_df, delay_df):
     line_color = 'steelblue'
     
     for i, (name, df) in enumerate(datasets.items()):
-        plt.subplot(1, 3, i + 1)
+        plt.subplot(2, 3, i + 1)
         
         if not df.empty and 'frame.time' in df.columns:
             # Calculate relative time in seconds starting from each dataframe's min time
             start_time = df['frame.time'].min()
             
             # Create a time series of packets per second
-            time_series = pd.Series(1, index=df['frame.time'])
+            time_series = pd.Series(2, index=df['frame.time'])
             packets_per_sec = time_series.resample('s').count()
             
             # Convert packets_per_sec index to relative seconds
