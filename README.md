@@ -67,6 +67,10 @@ The experiments were conducted in a simulated environment using SGSim.
 -   sqlite3
 -   php-sqlite3
 -   tshark
+-   pandas 
+-   numpy 
+-   matplotlib.pyplot
+-   seaborn 
 
 ### Installation
 
@@ -84,13 +88,21 @@ Extract `comlib_dps.zip` and `comlib_dss.zip` in the same folder. (Note: these f
 -   **GUI**: `./GUI/StartGUI.sh`
 -   **SCADA simulation**: open web browser at `localhost:8000`
 
+### Running the PCA Analysis
+-   `python -m venv .venv`:  in your terminal, replacing "myenv" with your desired environment name.
+-   `source myenv/bin/activate`: to activate it
+-   `import pandas as pd`
+-   `import numpy as np`
+-   `import matplotlib.pyplot as plt`
+-   `import seaborn as sns`
+
 
 ### Mininet is able to control the topology using custom functions
 
--   sgsim_startcom_goose starts the GOOSE communication between the IED1, IED4 and the DPS HMI.
--   sgsim_attack_goose_fdi starts the FDI attack from the attacker device inside the DPS.
--   sgsim_startcom_sv starts the SV communication between IED2, IED3 and the DPS HMI.
--   sgsim_startperfmon starts the IEC104 communication between the same devices, and timestamps to measure and list the delay, IPDV jitter, packet loss and threshold above 60 s measurement.
--   sgsim_attack_dos starts the DoS attack from the DSS1 RTU to the CONTROL device (assumes compromised RTU).
+-   `sgsim_startcom_goose`: starts the GOOSE communication between the IED1, IED4 and the DPS HMI.
+-   `sgsim_attack_goose_fdi`: starts the FDI attack from the attacker device inside the DPS.
+-   `sgsim_startcom_sv`: starts the SV communication between IED2, IED3 and the DPS HMI.
+-   `sgsim_startperfmon`: starts the IEC104 communication between the same devices, and timestamps to measure and list the delay, IPDV jitter, packet loss and threshold above 60 s measurement.
+-   `sgsim_attack_dos`: starts the DoS attack from the DSS1 RTU to the CONTROL device (assumes compromised RTU).
 
 
